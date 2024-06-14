@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="practico4maui.Views.Principal"
+             Title=""
+             BackgroundColor="#76b900" >
+    <VerticalStackLayout>
+        <Editor Text="Nvidia Corporation es una empresa  de software y fabless que diseña unidades de procesamiento de gráficos (GPU), interfaz de programación de aplicaciones (API) para ciencia de datos y computación de alto rendimiento, así como unidades de sistemaen chip (SoC) para la computación móvil y el mercado automotriz. Nvidia es líder mundialen hardware y software de inteligencia artificial." Margin="50" TextColor="Black"/>
+        <Image Source="placa.jpg" WidthRequest="150" HeightRequest="180"/>
+        <HorizontalStackLayout>
+            <Button Text="Salir" TextColor="White" BackgroundColor="Black" Margin="50" VerticalOptions="Center" HorizontalOptions="Center" Clicked="Button_Clicked"/>
+            <Button Text="Acerca de" TextColor="White" BackgroundColor="Black" Margin="50" VerticalOptions="Center" HorizontalOptions="Center" Clicked="Button_Clicked_1"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="practico4maui.Views.Acercade"
+             Title="" 
+             BackgroundColor="#76b900">
+    
+    <VerticalStackLayout>
+        <Image Source="perfil.jpg" WidthRequest="150" HeightRequest="150"/>
+        <Label 
+            Text="Cristian Ariel Erro"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            TextColor="Black" FontSize="Medium"
+            />
+        <HorizontalStackLayout Margin="80">
+            <Button Text="Contacto llamada" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Black"/>
+            <Button Text="Contacto mail" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Black"/>
+        </HorizontalStackLayout>
+        <Button Text="Volver al menu" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Black" Clicked="Button_Clicked" />
+    </VerticalStackLayout>
+</ContentPage>
