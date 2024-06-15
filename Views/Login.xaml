@@ -6,7 +6,7 @@
              BackgroundColor="#76b900">
     
     <VerticalStackLayout>
-        <Image Source="logo.jpg" WidthRequest="150" HeightRequest="150" Margin="40"/>
+        <Image Source="logo.jpg" WidthRequest="200" HeightRequest="150" Margin="40,40,40,40"/>
         <Label 
             Text="Usuario:"
             TextColor="Black"
@@ -27,6 +27,6 @@
         <Entry Placeholder="" WidthRequest="150"
                x:Name="entcontraseña"/>
         
-        <Button Text="Login" WidthRequest="100" TextColor="White" BackgroundColor="Black" Margin="25" Clicked="Button_Clicked_1"/>
+        <Button Text="Login" WidthRequest="125" HeightRequest="50" TextColor="White" BackgroundColor="Black" Margin="25,99,25,25" Clicked="Button_Clicked_1"/>
     </VerticalStackLayout>
 </ContentPage>

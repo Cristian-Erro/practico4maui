@@ -6,17 +6,17 @@
              BackgroundColor="#76b900">
     
     <VerticalStackLayout>
-        <Image Source="perfil.jpg" WidthRequest="150" HeightRequest="150"/>
+        <Image Source="perfil.jpg" WidthRequest="200" HeightRequest="200" Margin="0,50,0,0"/>
         <Label 
             Text="Cristian Ariel Erro"
             VerticalOptions="Center" 
             HorizontalOptions="Center"
             TextColor="Black" FontSize="Medium"
             />
-        <HorizontalStackLayout Margin="80">
-            <Button Text="Contacto llamada" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Black"/>
-            <Button Text="Contacto mail" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Black"/>
+        <HorizontalStackLayout Margin="50">
+            <Button Text="Contacto llamada" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Black" Margin="0,22,22,22"/>
+            <Button Text="Contacto mail" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Black" Margin="10,22,22,22"/>
         </HorizontalStackLayout>
-        <Button Text="Volver al menu" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Black" Clicked="Button_Clicked" />
+        <Button Text="Volver al menu" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Black" Clicked="Button_Clicked" Margin="0,70,0,0" />
     </VerticalStackLayout>
 </ContentPage>
